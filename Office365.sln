@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2018
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "Office365", "Office365.phpproj", "{A6FE93F2-55EB-4741-AB5B-7B6DE1B5191D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6FE93F2-55EB-4741-AB5B-7B6DE1B5191D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6FE93F2-55EB-4741-AB5B-7B6DE1B5191D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CFCD7C02-FF88-4158-8E75-718819F76E5C}
+	EndGlobalSection
+EndGlobal

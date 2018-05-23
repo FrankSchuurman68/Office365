@@ -1,0 +1,732 @@
+/* ------------------------------------------------------------------------ */
+/* Media Queries
+/* ------------------------------------------------------------------------ */
+	
+	/* ------------------------------------------------------------------------ */
+	/* Smaller than standard 960 (devices and browsers) */
+	/* ------------------------------------------------------------------------ */
+	@media only screen and (max-width: 1120px) {
+		#main.boxed .tp-rightarrow, #main.framed .tp-rightarrow, #main.rounded .tp-rightarrow {
+			right: 0 !important;
+		}
+		#main.boxed .tp-leftarrow, #main.framed .tp-leftarrow, #main.rounded .tp-leftarrow {
+			left: 0 !important;
+		}
+
+	}
+	@media only screen and (max-width: 959px) {
+		
+		#respond input#submit{
+			margin: 0 !important;
+		}
+		
+		#boxed-layout {
+		    width: auto;
+		    margin: 0 !important;
+		    padding: 0 !important;
+		    border: none;
+		}
+		
+		    #boxed-layout .container {
+		        padding-left: 0 !important;
+		        padding-right: 0 !important;
+		    }
+		
+		#background {
+		    display: none;
+		}
+		#navigation ul li a {
+			font-size: 15px !important;
+			margin: 0 0 0 15px;
+		}
+		.social-icons ul li a {
+			margin: 0 0 5px 5px;
+		}
+		.portfolio-item.four h4 {
+			font-size: 18px;
+		}
+
+
+	}
+	
+	/* ------------------------------------------------------------------------ */
+	/* Tablet Portrait size to standard 960 (devices and browsers) / 1. Step */
+	/* ------------------------------------------------------------------------ */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+	
+		#header-searchform{
+			display: none;
+		}
+		.post-content {
+		    width: 500px;
+		}
+		
+		.blog-medium .post-content {
+		    width: 216px;
+		}
+		
+		#author-info .author-bio {
+        	width: 394px;
+        }
+        
+        #respond-inputs p{
+	    	width: 556px;
+	    	margin:0 0 20px 0 !important;
+	    	float: none;
+	    }
+	    #respond-inputs input{
+		    width: 538px;
+	    }
+	    
+	    #respond-textarea textarea{
+		    width: 538px;
+	    }
+		
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		.portfolio-item.four {
+		    width: 364px !important;
+		    height: 237px;
+		}
+		
+		.hexagon .portfolio-item.four {
+			width: 230px !important;
+			height: 262px;
+		}
+		
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		.portfolio-item.one-third {
+		    width: 236px;
+		    height: 154px;
+		}
+		.portfolio-item.one-third h4 {
+			font-size: 15px;
+		}
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		.portfolio-item.eight {
+		    width: 364px;
+		    height: 237px;
+		}
+		
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		.portfolio-item-one .portfolio-desc{
+			width: 258px;
+		}
+		.portfolio-item-one h4{
+			margin-top:0;
+		}
+		.portfolio-item-one .button{
+			padding: 10px 14px;
+		}
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+		.flex-control-nav.flex-control-thumbs li img {
+			width: 80px; height: auto;
+		}
+
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		/* Widgets */
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		.widget_portfolio .portfolio-widget-item .portfolio-pic{
+			width: 40px;
+			height:40px;
+		}
+		
+		.widget_search input{
+			width:133px;
+		}
+		#wp-calendar tbody td,
+		#wp-calendar thead th,
+		#wp-calendar caption {
+            padding: 0;
+        }
+	
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		/* Shortcodes */
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+	
+		.pricing-table{
+			width: 748px;
+		}
+		
+		.pricing-table.col-2 .plan{
+			width:372px;
+		}
+		.pricing-table.col-3 .plan{
+			width:248px;
+		}
+		.pricing-table.col-4 .plan{
+			width:186px;
+		}
+		.pricing-table.style3.col-4 .plan{
+			width:184px;
+		}
+		.pricing-table.col-5 .plan{
+			width:148px;
+		}
+		
+		.latest-blog .blog-item .blog-pic img{
+			width:172px;
+			height:112px;
+		}
+		.latest-blog .blog-item h4{
+			font-size: 13px;
+		}
+		
+		.latest-blog .blog-item .post-icon{
+			left:61px;
+			top:31px !important;
+		}
+
+		#filters ul li a {
+			padding: 7px 14px;
+		}
+		#sidebar .widget .tab a h5 {
+		padding: 8px 5px;
+		font-size: 12px;
+		width: 45px;
+		}
+		#main.boxed .tp-rightarrow, #main.framed .tp-rightarrow, #main.rounded .tp-rightarrow {
+			right: 0 !important;
+		}
+		#main.boxed .tp-leftarrow, #main.framed .tp-leftarrow, #main.rounded .tp-leftarrow {
+			left: 0 !important;
+		}
+	}
+	
+	/* ------------------------------------------------------------------------ */
+	/* All Mobile Sizes (devices and browser) / all under Tablet */
+	/* ------------------------------------------------------------------------ */
+	@media only screen and (max-width: 767px) {
+		
+		.tparrows, .tp-button {
+			display: none !important;
+		}
+		.tp-caption.medium_text_black p{
+			margin-bottom: 2px !important;
+		}
+		.social-icons.top-icons ul {
+			float: none;
+			overflow: hidden;
+			display: inline-block;
+			margin: 0 auto !important;
+		}
+		#filters .filters-list {display: none;}
+		#header{
+			height: auto !important;
+		}
+		
+		.logo{
+			margin:25px 0 25px 0 !important;
+		}
+		.header4 .logo{
+			margin:25px 0 0px 0 !important;
+		}
+		.logo img{
+			max-width: 100%;
+		}
+		#navigation ul, #header-searchform{
+			display:none;
+		}
+		#navigation .select-menu{
+			display: inherit;
+			width:100%;
+			padding:8px;
+		}
+		.header5 #navigation .select-menu {
+			margin-top: 20px;
+		}
+		.flexslider {
+			margin:0;
+		}
+			#no-title #breadcrumbs{
+				display: block;
+			}
+		
+		#sidebar{
+			margin-top:40px;
+		}
+		
+		#back-to-top{
+			display: none !important;
+		}
+		
+		#footer .widget,
+		#infobar .widget{
+			margin-bottom:20px;
+		}
+		
+		#copyright{
+			text-align: left;
+			margin: 0 !important;
+		}
+		#copyright .social-icons{
+			text-align: left;
+			width: 100%;
+			font-size:0;
+			padding:0;
+			margin: 0;
+		}
+		#copyright .social-icons ul {
+			margin: 10px 0;
+		}
+		#copyright .social-icons ul li{
+			display: inline-block;
+			text-align: center;
+			float: none;
+		}
+		
+		#filters ul li {
+            display: block;
+            float: none;
+        }
+        
+        #filters ul li a {
+            display: block;
+            float: none;
+            border: none;
+            border-bottom: 1px solid #dddddd;
+        }
+        
+        #portfolio-slider .overlay{
+	        display: none;
+        }
+        
+        .callout .callout-button{
+			float: none;
+			width: 100%;
+			margin: 0 0 20px 0 !important;
+		}
+		.callout .callout-button {
+			text-align: center;
+			margin: 0 !important;
+		}
+		.callout .callout-title {
+			margin-bottom: 25px !important;
+		}
+		.callout .callout-content{
+			float: none;
+			width: 100%;
+			text-align: center;
+		}
+		
+		.teaserbox{
+			text-align: center;
+		}
+		.teaserbox a.button{
+			display: block;
+		}
+		
+		#sidebar .widget .tab a h5 {
+			font-size: 15px;
+			width: 70px;
+		}
+		.panel div{
+			max-width: 100%;
+		}
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+
+		.flex-control-nav.flex-control-thumbs li img {
+			width: 65px; height: auto;
+		}
+		.accordion {
+			margin-bottom: 25px;
+		}
+		
+	}
+
+	/* ------------------------------------------------------------------------ */
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) 2. Step */
+	/* ------------------------------------------------------------------------ */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		.gallery-wrap{
+			margin:0 0 -20px 0;
+		}
+		.latest-blog, .negative-wrap{
+			margin:0 0px 0 0px;
+		}
+		
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		.post-content {
+		    width: 365px;
+		}
+		
+		.post-meta span{
+			display: block;
+			margin:0 0 5px 0;
+		}
+		
+		.blog-medium .post-content {
+		    width: 420px;
+		}
+		
+		.blog-medium .post-video,
+		.blog-medium .post-gallery,
+		.blog-medium .post-image,
+		.blog-medium .post-quote,
+		.blog-medium .post-audio,
+		.blog-medium .post-link {
+		    width: 420px;
+		}
+		
+		.blog-medium .post-gallery img,
+		.blog-medium .post-image img {
+			width: 100%;
+			height: auto;
+		}
+		
+		#author-info{
+			margin: 0;
+		}
+		
+		#author-info .author-bio {
+        	float: left;
+        	width: 100%;
+        	margin-bottom: 25px;
+        }
+		
+		.sharebox{
+			margin: 0 0 30px 0;
+		}
+		.sharebox h4 {
+			display: none;
+	    }
+	    
+	    #respond-inputs p{
+	    	width: 420px;
+	    	margin:0 0 20px 0 !important;
+	    	float: none;
+	    }
+	    #respond-inputs input{
+		    width: 403px;
+	    }
+	    
+	    #respond-textarea textarea{
+		    width: 403px;
+	    }
+
+	    
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		
+		.portfolio-wide #portfolio-video,
+		.portfolio-sidebyside #portfolio-video { 
+			margin: 0 0 30px 0;
+		}
+		.portfolio-wide #portfolio-slider {
+			margin-bottom: 95px;
+		}
+		#portfolio-related-post h3{
+			margin-left:0px;
+			margin-right:0px;
+		}
+		
+		.projects-nav{
+			display: none;
+		}
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		.portfolio-item.four {
+		    width: 420px !important;
+		    height: 274px;
+		    margin-bottom:20px;
+		}
+		.hexagon .portfolio-item.four {
+		    width: 420px !important;
+		    height: 482px !important;
+		    margin-bottom:20px;
+		}
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		.portfolio-item.one-third {
+		    width: 420px !important;
+		    height: 274px !important;
+		    margin-bottom:20px;
+		}
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */		
+		
+		.portfolio-item.eight {
+		    width: 420px;
+		    height: 274px;
+		    margin-bottom:20px;
+		}
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		.portfolio-item-one{
+			margin-bottom: 40px !important;
+
+		}
+		
+		.portfolio-item-one .portfolio-picwrap,
+		.portfolio-item-one .portfolio-desc{
+			width: 420px;
+			clear: both;
+			float: none !important;
+		}
+		.portfolio-item-one .portfolio-picwrap {
+			height: 274px;
+		}
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		/* Widgets */
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		.widget_search input{
+			width:379px;
+		}
+		
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		/* Shortcodes */
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		.pricing-table{
+			width: 420px;
+		}
+		
+		.pricing-table.col-2 .plan,
+		.pricing-table.col-3 .plan,
+		.pricing-table.col-4 .plan,
+		.pricing-table.style3.col-4 .plan,
+		.pricing-table.col-5 .plan{
+			width:418px;
+			margin-bottom:20px;
+		}	
+		
+		.pricing-table .featured{
+			margin-top:0;
+		}
+		
+		.latest-blog .blog-item{
+			margin-bottom: 20px;
+		}
+		
+		.latest-blog .blog-item .blog-pic img{
+			width:420px;
+			height:273px;
+		}
+		
+		.latest-blog .blog-item .blog-overlay{
+			width:420px;
+			height:273px;
+		}
+		
+		.latest-blog .blog-item h4{
+			font-size: 13px;
+		}
+		
+		.latest-blog .blog-item .post-icon{
+			left:185px;
+			top:111px !important;
+		}
+		
+	}
+	
+	/* ------------------------------------------------------------------------ */
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) 3. Step */
+	/* ------------------------------------------------------------------------ */
+	@media only screen and (max-width: 479px) {
+		.gallery-wrap{
+			margin:0 0 -20px 0;
+		}
+		.latest-blog, .negative-wrap{
+			margin:0 0px 0 0px;
+		}
+		
+		.sidenav:after {
+		    display: none;
+		}
+		.tparrows, .tp-button, .tp-caption.medium_text_black {
+			display: none !important;
+		}
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		.post-meta span{
+			display: block;
+			margin:0 0 5px 0;
+		}
+		
+		.blog-medium .post-content {
+		    width: 300px;
+		}
+		
+		.blog-medium .post-video,
+		.blog-medium .post-gallery,
+		.blog-medium .post-image,
+		.blog-medium .post-quote,
+		.blog-medium .post-audio,
+		.blog-medium .post-link {
+		    width: 300px;
+		}
+		
+		.blog-medium .post-gallery img,
+		.blog-medium .post-image img {
+			width: 100%;
+			height: auto;
+		}
+		
+		#author-info{
+			margin: 0;
+		}
+		
+		#author-info .author-bio {
+        	
+        	width: 100%;
+        	margin: 0px 0 15px;
+        }
+        
+        .sharebox{
+			margin: 0 0 30px 0;
+		}
+		.sharebox h4 {
+			display: none;
+	    }
+	    
+	    #respond-inputs p{
+	    	width: 300px;
+	    	margin:0 0 20px 0 !important;
+	    	float: none;
+	    	background: yellow;
+	    }
+	    #respond-inputs input{
+		    width: 282px;
+	    }
+	    
+	    #respond-textarea textarea{
+		    width: 282px;
+	    }
+
+		
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		
+		.portfolio-wide #portfolio-video,
+		.portfolio-sidebyside #portfolio-video { 
+			margin: 0 0 30px 0;
+		}
+		.portfolio-wide #portfolio-slider {
+			margin-bottom: 75px;
+		}
+		#portfolio-related-post h3{
+			margin-left:0px;
+			margin-right:0px;
+		}
+		
+		.projects-nav{
+			display: none;
+		}
+		
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		.portfolio-item.four {
+		    width: 300px !important;
+		    height: 196px;
+		    margin-bottom:20px;
+		}
+		.hexagon .portfolio-item.four {
+		    width: 300px !important;
+		    height: 342px !important;
+		    margin-bottom:20px;
+		}
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		.portfolio-item.one-third {
+		    margin-bottom:20px;
+		}
+		
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		.portfolio-item.eight {
+		    width: 300px;
+		    height: 196px;
+		    margin-bottom:20px;
+		}
+
+		
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		.portfolio-item-one{
+			margin-bottom: 40px !important;
+		}
+		
+		.portfolio-item-one .portfolio-picwrap,
+		.portfolio-item-one .portfolio-desc{
+			width: 300px;
+			clear: both;
+			float: none !important;
+		}
+		.portfolio-item .portfolio-page-item .portfolio-title, .portfolio-item-one .portfolio-page-item .portfolio-title {
+			font-size: 18px;
+		}
+		.flex-control-nav.flex-control-thumbs li img {
+			width: 50px;	height: auto;
+		}
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		/* Widgets */
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		.widget_search input{
+			width:258px;
+		}
+		
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		/* Shortcodes */
+		/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - */
+		
+		.pricing-table{
+			width: 300px;
+		}
+		
+		.pricing-table.col-2 .plan,
+		.pricing-table.col-3 .plan,
+		.pricing-table.col-4 .plan,
+		.pricing-table.style3.col-4 .plan,
+		.pricing-table.col-5 .plan{
+			width:298px;
+			margin-bottom:20px;
+		}	
+		
+		.pricing-table .featured{
+			margin-top:0;
+		}
+		
+		.latest-blog .blog-item{
+			margin-bottom: 20px;
+		}
+		
+		.latest-blog .blog-item .blog-pic img{
+			width:300px;
+			height:195px;
+		}
+		
+		.latest-blog .blog-item .blog-overlay{
+			width:300px;
+			height:195px;
+		}
+		
+		.latest-blog .blog-item h4{
+			font-size: 13px;
+		}
+		
+		.latest-blog .blog-item .post-icon{
+			left:125px;
+			top:72px !important;
+		}
+		
+	}
+	
+	/* ------------------------------------------------------------------------ */
+	@media only screen and (min-width: 960px) {
+	/* ------------------------------------------------------------------------ */
+		.flex-direction-nav .flex-next {right: -40px; *right:0;}
+		.flex-direction-nav .flex-prev {left: -40px; *left: 0;}
+		
+		
+	}
+	
+/* ------------------------------------------------------------------------ */
+/* EOF
+/* ------------------------------------------------------------------------ */

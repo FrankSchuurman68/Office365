@@ -1,0 +1,135 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Name>Office365</Name>
+    <ProjectGuid>{a6fe93f2-55eb-4741-ab5b-7b6de1b5191d}</ProjectGuid>
+    <RootNamespace>
+    </RootNamespace>
+    <OutputType>Library</OutputType>
+    <ProjectTypeGuids>{A0786B88-2ADB-4C21-ABE8-AA2D79766269}</ProjectTypeGuids>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <IncludeDebugInformation>true</IncludeDebugInformation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <IncludeDebugInformation>false</IncludeDebugInformation>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="nbproject\configs\remote_mink.properties" />
+    <Compile Include="nbproject\sql\melding.sql" />
+    <Compile Include="nbproject\sql\mimk.sql" />
+    <Compile Include="nbproject\private\configs\remote_mink.properties" />
+    <Compile Include="nbproject\private\config.properties" />
+    <Compile Include="nbproject\private\private.xml" />
+    <Compile Include="nbproject\private\private.properties" />
+    <Compile Include="nbproject\project.properties" />
+    <Compile Include="nbproject\project.xml" />
+    <Compile Include="nbproject\apigen.cmd" />
+    <Compile Include="nbproject\apigen.neon" />
+    <Compile Include="img\favicon.png" />
+    <Compile Include="img\logo5 - kopie.png" />
+    <Compile Include="img\logo5.-acceptatie - kopie.png" />
+    <Compile Include="img\logo5.png" />
+    <Compile Include="libs\jquery.min.js" />
+    <Compile Include="libs\jquery.validate.min.js" />
+    <Compile Include="scripts\gen_validatorv31.js" />
+    <Compile Include="scripts\pwdwidget.js" />
+    <Compile Include="incl\class.phpmailer.php" />
+    <Compile Include="incl\FormValidator.php" />
+    <Compile Include="incl\class.functions.php" />
+    <Compile Include="incl\config.php" />
+    <Compile Include="js\jquery.validation.functions.js" />
+    <Compile Include="js\jquery.validate.js" />
+    <Compile Include="images\icons\arrow.png" />
+    <Compile Include="docs\resources\tree-hasnext.png" />
+    <Compile Include="docs\resources\combined.js" />
+    <Compile Include="docs\resources\bootstrap.min.css" />
+    <Compile Include="docs\resources\sort.png" />
+    <Compile Include="docs\resources\inherit.png" />
+    <Compile Include="docs\resources\tree-last.png" />
+    <Compile Include="docs\resources\tree-vertical.png" />
+    <Compile Include="docs\resources\resize.png" />
+    <Compile Include="docs\resources\style.css" />
+    <Compile Include="docs\resources\tree-cleaner.png" />
+    <Compile Include="docs\resources\collapsed.png" />
+    <Compile Include="docs\elementlist.js" />
+    <Compile Include="docs\source-class-CustomValidator.html" />
+    <Compile Include="docs\404.html" />
+    <Compile Include="docs\source-class-FormValidator.html" />
+    <Compile Include="docs\index.html" />
+    <Compile Include="docs\class-MimkSite.html" />
+    <Compile Include="docs\annotation-group-todo.html" />
+    <Compile Include="docs\source-class-MimkSite.html" />
+    <Compile Include="docs\class-FormValidator.html" />
+    <Compile Include="docs\class-CustomValidator.html" />
+    <Compile Include="docs\source-class-ValidatorObj.html" />
+    <Compile Include="docs\class-ValidatorObj.html" />
+    <Compile Include="docs\source-class-PHPMailer.html" />
+    <Compile Include="docs\tree.html" />
+    <Compile Include="docs\-API-documentation.zip" />
+    <Compile Include="docs\sitemap.xml" />
+    <Compile Include="docs\robots.txt" />
+    <Compile Include="docs\class-PHPMailer.html" />
+    <Compile Include="style\energy\font-awesome.min.css" />
+    <Compile Include="style\energy\responsive.css" />
+    <Compile Include="style\energy\skeleton.css" />
+    <Compile Include="style\energy\bootstrap.css" />
+    <Compile Include="style\energy\flexslider.css" />
+    <Compile Include="style\energy\shortcodes.css" />
+    <Compile Include="style\energy\basic.css" />
+    <Compile Include="style\energy\style.css" />
+    <Compile Include="style\energy\fontello.css" />
+    <Compile Include="style\energy\prettyPhoto.css" />
+    <Compile Include="style\fonts\fontawesome-social.woff" />
+    <Compile Include="style\fonts\fontawesome-social.eot" />
+    <Compile Include="style\contact-form.css" />
+    <Compile Include="style\js_composer.css" />
+    <Compile Include="style\stylesheet.css" />
+    <Compile Include="style\pwdwidget.css" />
+    <Compile Include="resources\tree-hasnext.png" />
+    <Compile Include="resources\footer.png" />
+    <Compile Include="resources\combined.js" />
+    <Compile Include="resources\sort.png" />
+    <Compile Include="resources\inherit.png" />
+    <Compile Include="resources\tree-last.png" />
+    <Compile Include="resources\tree-vertical.png" />
+    <Compile Include="resources\resize.png" />
+    <Compile Include="resources\style.css" />
+    <Compile Include="resources\tree-cleaner.png" />
+    <Compile Include="resources\collapsed.png" />
+    <Compile Include="changed-pwd.html" />
+    <Compile Include="admin.php" />
+    <Compile Include="register.php" />
+    <Compile Include="melding.php" />
+    <Compile Include="logout.php" />
+    <Compile Include="index.php" />
+    <Compile Include="medewerkers.php" />
+    <Compile Include="change-pwd.php" />
+    <Compile Include="login-home.php" />
+    <Compile Include="reset-pwd-req.php" />
+    <Compile Include="resetpwd.php" />
+    <Compile Include="praktijken.php" />
+    <Compile Include="export.php" />
+    <Compile Include="reset-pwd-link-sent.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="nbproject\configs" />
+    <Folder Include="nbproject\sql" />
+    <Folder Include="nbproject\private\configs" />
+    <Folder Include="nbproject\private" />
+    <Folder Include="nbproject" />
+    <Folder Include="img" />
+    <Folder Include="libs" />
+    <Folder Include="scripts" />
+    <Folder Include="incl" />
+    <Folder Include="js" />
+    <Folder Include="images\icons" />
+    <Folder Include="images" />
+    <Folder Include="docs\resources" />
+    <Folder Include="docs" />
+    <Folder Include="style\energy" />
+    <Folder Include="style\fonts" />
+    <Folder Include="style" />
+    <Folder Include="resources" />
+  </ItemGroup>
+</Project>

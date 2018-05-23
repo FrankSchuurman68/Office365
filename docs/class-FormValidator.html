@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+
+	<title>Class FormValidator | Portall</title>
+
+	<link rel="stylesheet" href="resources/bootstrap.min.css?973e37a8502921d56bc02bb55321f45b072b6f71">
+	<link rel="stylesheet" href="resources/style.css?49f43d3208c5d7e33fa16d36107a345bf11cc00d">
+
+</head>
+
+<body>
+	<nav id="navigation" class="navbar navbar-default navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a href="index.html" class="navbar-brand">Portall</a>
+			</div>
+			<div class="collapse navbar-collapse">
+
+                <form id="search" class="navbar-form navbar-left" role="search">
+                    <input type="hidden" name="cx" value="">
+                    <input type="hidden" name="ie" value="UTF-8">
+                    <div class="form-group">
+                        <input type="text" name="q" class="search-query form-control" placeholder="Search">
+					</div>
+				</form>
+
+				<ul class="nav navbar-nav">
+					<li class="active">
+<span>Class</span>					</li>
+
+					<li class="divider-vertical"></li>
+
+					<li>
+						<a href="tree.html" title="Tree view of classes, interfaces, traits and exceptions"><span>Tree</span></a>
+					</li>
+
+						<li>
+							<a href="annotation-group-todo.html" title="List of elements with todo annotation">
+								<span>Todo</span>
+							</a>
+						</li>
+
+					<li class="divider-vertical"></li>
+
+					<li>
+						<a href="-API-documentation.zip" title="Download documentation as ZIP archive"><span>Download</span></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="left">
+	<div id="menu">
+
+		<div id="groups">
+		</div>
+
+
+		<div id="elements">
+			<h3>Classes</h3>
+			<ul>
+				<li><a href="class-CustomValidator.html">CustomValidator</a></li>
+				<li class="active"><a href="class-FormValidator.html">FormValidator</a></li>
+				<li><a href="class-MimkSite.html">MimkSite</a></li>
+				<li><a href="class-PHPMailer.html">PHPMailer</a></li>
+				<li><a href="class-ValidatorObj.html">ValidatorObj</a></li>
+			</ul>
+
+
+
+
+
+		</div>
+	</div>
+</div>
+
+<div id="splitter"></div>
+
+<div id="right">
+	<div id="rightInner">
+<div id="content" class="class">
+	<h1>Class FormValidator</h1>
+
+
+	<div class="description">
+	<p>FormValidator: The main class that does all the form validations</p>
+	</div>
+
+
+
+
+
+
+
+
+
+	<div class="alert alert-info">
+		
+		
+		
+		
+
+			<b>Located at</b> <a href="source-class-FormValidator.html#56-523" title="Go to source code">incl/FormValidator.php</a>
+		<br>
+	</div>
+
+
+
+		<div class="panel panel-default">
+			<div class="panel-heading"><h2>Methods summary</h2></div>
+			<table class="summary table table-bordered table-striped methods" id="methods">
+		<tr data-order="FormValidator" id="_FormValidator">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_FormValidator">#</a>
+			<code><a href="source-class-FormValidator.html#65-70" title="Go to source code">FormValidator</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="AddCustomValidator" id="_AddCustomValidator">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_AddCustomValidator">#</a>
+			<code><a href="source-class-FormValidator.html#72-75" title="Go to source code">AddCustomValidator</a>( <span> <var>&amp; $customv</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="addValidation" id="_addValidation">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_addValidation">#</a>
+			<code><a href="source-class-FormValidator.html#76-83" title="Go to source code">addValidation</a>( <span> <var>$variable</var></span>, <span> <var>$validator</var></span>, <span> <var>$error</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="GetErrors" id="_GetErrors">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_GetErrors">#</a>
+			<code><a href="source-class-FormValidator.html#84-87" title="Go to source code">GetErrors</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="ValidateForm" id="_ValidateForm">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_ValidateForm">#</a>
+			<code><a href="source-class-FormValidator.html#88-123" title="Go to source code">ValidateForm</a>( )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="ValidateObject" id="_ValidateObject">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_ValidateObject">#</a>
+			<code><a href="source-class-FormValidator.html#124-159" title="Go to source code">ValidateObject</a>( <span> <var>$validatorobj</var></span>, <span> <var>$formvariables</var></span>, <span> <var>&amp; $error_string</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="validate_req" id="_validate_req">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_validate_req">#</a>
+			<code><a href="source-class-FormValidator.html#161-171" title="Go to source code">validate_req</a>( <span> <var>$input_value</var></span>, <span> <var>&amp; $default_error_message</var></span>, <span> <var>$variable_name</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="validate_maxlen" id="_validate_maxlen">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_validate_maxlen">#</a>
+			<code><a href="source-class-FormValidator.html#172-185" title="Go to source code">validate_maxlen</a>( <span> <var>$input_value</var></span>, <span> <var>$max_len</var></span>, <span> <var>$variable_name</var></span>, <span> <var>&amp; $default_error_message</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="validate_minlen" id="_validate_minlen">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_validate_minlen">#</a>
+			<code><a href="source-class-FormValidator.html#186-199" title="Go to source code">validate_minlen</a>( <span> <var>$input_value</var></span>, <span> <var>$min_len</var></span>, <span> <var>$variable_name</var></span>, <span> <var>&amp; $default_error_message</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="test_datatype" id="_test_datatype">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_test_datatype">#</a>
+			<code><a href="source-class-FormValidator.html#200-207" title="Go to source code">test_datatype</a>( <span> <var>$input_value</var></span>, <span> <var>$reg_exp</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="validate_email" id="_validate_email">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_validate_email">#</a>
+			<code><a href="source-class-FormValidator.html#208-211" title="Go to source code">validate_email</a>( <span> <var>$email</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="validate_for_numeric_input" id="_validate_for_numeric_input">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_validate_for_numeric_input">#</a>
+			<code><a href="source-class-FormValidator.html#212-231" title="Go to source code">validate_for_numeric_input</a>( <span> <var>$input_value</var></span>, <span> <var>&amp; $validation_success</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="validate_lessthan" id="_validate_lessthan">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_validate_lessthan">#</a>
+			<code><a href="source-class-FormValidator.html#232-254" title="Go to source code">validate_lessthan</a>( <span> <var>$command_value</var></span>, <span> <var>$input_value</var></span>, <span> <var>$variable_name</var></span>, <span> <var>&amp; $default_error_message</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="validate_greaterthan" id="_validate_greaterthan">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_validate_greaterthan">#</a>
+			<code><a href="source-class-FormValidator.html#255-275" title="Go to source code">validate_greaterthan</a>( <span> <var>$command_value</var></span>, <span> <var>$input_value</var></span>, <span> <var>$variable_name</var></span>, <span> <var>&amp; $default_error_message</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="validate_select" id="_validate_select">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_validate_select">#</a>
+			<code><a href="source-class-FormValidator.html#276-303" title="Go to source code">validate_select</a>( <span> <var>$input_value</var></span>, <span> <var>$command_value</var></span>, <span> <var>&amp; $default_error_message</var></span>, <span> <var>$variable_name</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="validate_dontselect" id="_validate_dontselect">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_validate_dontselect">#</a>
+			<code><a href="source-class-FormValidator.html#304-328" title="Go to source code">validate_dontselect</a>( <span> <var>$input_value</var></span>, <span> <var>$command_value</var></span>, <span> <var>&amp; $default_error_message</var></span>, <span> <var>$variable_name</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+		<tr data-order="ValidateCommand" id="_ValidateCommand">
+
+			<td class="attributes"><code>
+				 public 
+				
+				
+				</code>
+			</td>
+
+			<td class="name"><div>
+			<a class="anchor" href="#_ValidateCommand">#</a>
+			<code><a href="source-class-FormValidator.html#329-522" title="Go to source code">ValidateCommand</a>( <span> <var>$command</var></span>, <span> <var>$command_value</var></span>, <span> <var>$input_value</var></span>, <span> <var>&amp; $default_error_message</var></span>, <span> <var>$variable_name</var></span>, <span> <var>$formvariables</var></span> )</code>
+
+			<div class="description short">
+				
+			</div>
+
+			<div class="description detailed hidden">
+				
+
+
+
+
+
+
+
+			</div>
+			</div></td>
+		</tr>
+			</table>
+		</div>
+
+
+
+
+
+
+
+
+
+
+
+		<div class="panel panel-default">
+            <div class="panel-heading"><h2>Properties summary</h2></div>
+			<table class="summary table table-bordered table-striped properties" id="properties">
+		<tr data-order="validator_array" id="$validator_array">
+			<td class="attributes"><code>
+				public  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-FormValidator.html#61" title="Go to source code"><var>$validator_array</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$validator_array" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="error_hash" id="$error_hash">
+			<td class="attributes"><code>
+				public  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-FormValidator.html#62" title="Go to source code"><var>$error_hash</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$error_hash" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+		<tr data-order="custom_validators" id="$custom_validators">
+			<td class="attributes"><code>
+				public  
+				
+			</code></td>
+
+			<td class="name">
+					<a href="source-class-FormValidator.html#63" title="Go to source code"><var>$custom_validators</var></a>
+
+				<div class="description short">
+					
+				</div>
+
+				<div class="description detailed hidden">
+					
+
+				</div>
+			</td>
+			<td class="value">
+				<div>
+					<a href="#$custom_validators" class="anchor">#</a>
+					<code></code>
+				</div>
+			</td>
+		</tr>
+			</table>
+		</div>
+
+
+
+
+
+
+</div>
+	</div>
+
+	<div id="footer">
+		Portall API documentation generated by <a href="http://apigen.org">ApiGen</a>
+	</div>
+</div>
+<script src="resources/combined.js"></script>
+<script src="elementlist.js"></script>
+</body>
+</html>

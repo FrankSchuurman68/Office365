@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>http://docs.example.com/index.html</loc>
+</url>
+
+
+<url>
+	<loc>http://docs.example.com/class-CustomValidator.html</loc>
+</url>
+<url>
+	<loc>http://docs.example.com/class-FormValidator.html</loc>
+</url>
+<url>
+	<loc>http://docs.example.com/class-MimkSite.html</loc>
+</url>
+<url>
+	<loc>http://docs.example.com/class-PHPMailer.html</loc>
+</url>
+<url>
+	<loc>http://docs.example.com/class-ValidatorObj.html</loc>
+</url>
+</urlset>
