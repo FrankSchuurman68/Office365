@@ -45,9 +45,9 @@ if(!$mimksite->CheckLogin())
                     <div class="wpb_wrapper">
                         <div class="wpb_call_to_action wpb_content_element vc_clearfix cta_align_bottom">
                             <h2 class="wpb_call_text"> </h2>
-                                <!-- Link naar Melding Maken-->
-                            <a class="wpb_button_a" href="melding.php">
-                                <span class="wpb_button  wpb_btn-danger wpb_regularsize wpb_arrow">Nieuwe Portall Offerte maken 
+                                <!-- Link naar Persona Maken-->
+                            <a class="wpb_button_a" href="persona.php">
+                                <span class="wpb_button  wpb_btn-danger wpb_regularsize wpb_arrow">Persona's Vaststellen 
                                     <i class="icon"> </i>
                                 </span>
                             </a>
@@ -57,6 +57,27 @@ if(!$mimksite->CheckLogin())
             </div>
         </div>
     </p>    
+
+        <p>
+            <div id="" class="wpb_row row-fluid  " style="margin-bottom: 0px;">
+                <div class="container">
+                    <div class="wpb_column vc_column_container vc_col-sm-12">
+                        <div class="wpb_wrapper">
+                            <div class="wpb_call_to_action wpb_content_element vc_clearfix cta_align_bottom">
+                                <h2 class="wpb_call_text"></h2>
+                                <!-- Link naar Melding Maken-->
+                                <a class="wpb_button_a" href="melding.php">
+                                    <span class="wpb_button  wpb_btn-danger wpb_regularsize wpb_arrow">
+                                        Nieuwe Portall Offerte maken
+                                        <i class="icon"></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </p>
     
     <p>
         <div id="" class="wpb_row row-fluid  " style="margin-bottom: 0px;">
